@@ -60,7 +60,7 @@ year = {2016}
 abstract = {Bipartite ranking aims to maximize the area under the ROC curve (AUC) of a decision function. To tackle this problem when the data appears sequentially, existing online AUC maximization methods focus on seeking a point estimate of the decision function in a linear or predefined single kernel space, and cannot learn effective kernels automatically from the streaming data. In this paper, we first develop a Bayesian multiple kernel bipartite ranking model, which circumvents the kernel selection problem by estimating a posterior distribution over the model weights. To make our model applicable to streaming data, we then present a kernelized online Bayesian passive-aggressive learning framework by maintaining a variational approximation to the posterior based on data augmentation. Furthermore, to efficiently deal with large-scale data, we design a fixed budget strategy which can effectively control online model complexity. Extensive experimental studies confirm the superiority of our Bayesian multi-kernel approach.},
 author = {Du, Changying and Du, Changde and Long, Guoping and He, Qing and Li, Yucheng},
 pages = {48-57},
-title = {Online Bayesian Multiple Kernel Bipartite Ranking},
+title = {Online {B}ayesian Multiple Kernel Bipartite Ranking},
 year = {2016}
 }
 
@@ -68,7 +68,7 @@ year = {2016}
 abstract = {We extend Andersson-Madigan-Perlman chain graphs by (i) relaxing the semidirected acyclity constraint so that only directed cycles are forbidden, and (ii) allowing up to two edges between any pair of nodes. We introduce global, and ordered local and pairwise Markov properties for the new models. We show the equivalence of these properties for strictly positive probability distributions. We also show that when the random variables are continuous, the new models can be interpreted as systems of structural equations with correlated errors. This enables us to adapt Pearl's do-calculus to them. Finally, we describe an exact algorithm for learning the new models from observational and interventional data via answer set programming.},
 author = {University, Jose Pe�a Link�ping},
 pages = {58-67},
-title = {Alternative Markov and Causal Properties for Acyclic Directed Mixed Graphs},
+title = {Alternative {M}arkov and Causal Properties for Acyclic Directed Mixed Graphs},
 year = {2016}
 }
 
@@ -116,7 +116,7 @@ year = {2016}
 abstract = {Bayesian inference has great promise for the privacy-preserving analysis of sensitive data, as posterior sampling automatically preserves differential privacy, an algorithmic notion of data privacy, under certain conditions (Dimitrakakis et al., 2014; Wang et al., 2015). While this one posterior sample (OPS) approach elegantly provides privacy "for free," it is data inefficient in the sense of asymptotic relative efficiency (ARE). We show that a simple alternative based on the Laplace mechanism, the workhorse of differential privacy, is as asymptotically efficient as non-private posterior inference, under general assumptions. This technique also has practical advantages including efficient use of the privacy budget for MCMC. We demonstrate the practicality of our approach on a time-series analysis of sensitive military records from the Afghanistan and Iraq wars disclosed by the Wikileaks organization.},
 author = {Foulds, James and Geumlek, Joseph and Welling, Max and Chaudhuri, Kamalika},
 pages = {118-127},
-title = {On the Theory and Practice of Privacy-Preserving Bayesian Data Analysis},
+title = {On the Theory and Practice of Privacy-Preserving {B}ayesian Data Analysis},
 year = {2016}
 }
 
@@ -124,7 +124,7 @@ year = {2016}
 abstract = {Relational Causal Models (RCM) generalize Causal Bayesian Networks so as to extend causal discovery to relational domains. We provide a novel and elegant characterization of the Markov equivalence of RCMs under path semantics. We introduce a novel representation of unshielded triples that allows us to efficiently determine whether an RCM is Markov equivalent to another. Under path semantics, we provide a sound and complete algorithm for recovering the structure of an RCM from conditional independence queries. Our analysis also suggests ways to improve the orientation recall of algorithms for learning the structure of RCM under bridge burning semantics as well.},
 author = {University, Sanghack Lee Penn State and University, Vasant Honavar Penn State},
 pages = {128-137},
-title = {A Characterization of Markov Equivalence Classes of Relational Causal Models under Path Semantics},
+title = {A Characterization of {M}arkov Equivalence Classes of Relational Causal Models under Path Semantics},
 year = {2016}
 }
 
@@ -180,7 +180,7 @@ year = {2016}
 abstract = {In this paper, we bridge the gap between hyperparameter optimization and ensemble learning by performing Bayesian optimization of an ensemble with regards to its hyperparameters. Our method consists in building a fixed-size ensemble, optimizing the configuration of one classifier of the ensemble at each iteration of the hyperparameter optimization algorithm, taking into consideration the interaction with the other models when evaluating potential performances. We also consider the case where the ensemble is to be reconstructed at the end of the hyperparameter optimization phase, through a greedy selection over the pool of models generated during the optimization. We study the performance of our proposed method on three different hyperparameter spaces, showing that our approach is better than both the best single model and a greedy ensemble construction over the models produced by a standard Bayesian optimization.},
 author = {Levesque, Julien-Charles and Gagne, Christian and Superieure, Robert Sabourin Ecole de Technologie},
 pages = {198-207},
-title = {Bayesian Hyperparameter Optimization for Ensemble Learning},
+title = {{B}ayesian Hyperparameter Optimization for Ensemble Learning},
 year = {2016}
 }
 
@@ -204,7 +204,7 @@ year = {2016}
 abstract = {Margin-based structured prediction commonly uses a maximum loss over all possible structured outputs (Altun \& Hofmann, 2003; Collins, 2004; Taskar et al., 2003). In natural language processing, recent work (Zhang et al., 2014; Zhang et al., 2015) has proposed the use of the maximum loss over random structured outputs sampled independently from some proposal distribution. This method is linear-time in the number of random structured outputs and trivially parallelizable. We study this family of loss functions in the PAC-Bayes framework under Gaussian perturbations (McAllester, 2007). Under some technical conditions and up to statistical accuracy, we show that this family of loss functions produces a tighter upper bound of the Gibbs decoder distortion than commonly used methods. Thus, using the maximum loss over random structured outputs is a principled way of learning the parameter of structured prediction models. Besides explaining the experimental success of (Zhang et al., 2014; Zhang et al., 2015), our theoretical results show that more general techniques are possible.},
 author = {University, Jean Honorio Purdue and Jaakkola, Tommi},
 pages = {228-235},
-title = {Structured Prediction: From Gaussian Perturbations to Linear-Time Principled Algorithms},
+title = {Structured Prediction: From {G}aussian Perturbations to Linear-Time Principled Algorithms},
 year = {2016}
 }
 
@@ -212,7 +212,7 @@ year = {2016}
 abstract = {Real-world data often includes rich relational information, which can be leveraged to help predict unknown variables using a small amount of observed variables via a propagation effect. We consider the problem of selecting the best subset of variables to observe to maximize the overall prediction accuracy. Under the Bayesian framework, the optimal subset should be chosen to minimize the Bayesian optimal error rate, which, unfortunately, is critically challenging to calculate when the variables follow complex and high dimensional probabilistic distributions such as graphical models. In this paper, we propose to use a class of Bayesian lower bounds, including Bayesian Cramer Rao bounds as well as a novel extension of it to discrete graphical models, as surrogate criteria for optimal subset selection, providing a set of computationally efficient algorithms. Extensive experiments are presented to demonstrate our algorithm on both simulated and real-world datasets.},
 author = {College, Dilin Wang Dartmouth and III, John Fisher and College, Qiang Liu Dartmouth},
 pages = {236-245},
-title = {Efficient Observation Selection in Probabilistic Graphical Models Using Bayesian Lower Bounds},
+title = {Efficient Observation Selection in Probabilistic Graphical Models Using {B}ayesian Lower Bounds},
 year = {2016}
 }
 
@@ -268,7 +268,7 @@ year = {2016}
 abstract = {The Hamiltonian Monte Carlo (HMC) method has become significantly popular in recent years.It is the state-of-the-art MCMC sampler due to its more efficient exploration to the parameter space than the standard random-walk based proposal.The key idea behind HMC is that it makes use of first-order gradient information about the target distribution. In this paper, we propose a novel dynamics.The new dynamics uses second-order geometric information about the desired distribution.The second-order information is estimated by using a quasi-Newton method (say, the BFGS method), so it does not bring heavy computational burden.Moreover, our theoretical analysis guarantees that this dynamics remains the target distribution invariant.As a result, the proposed quasi-Newton Hamiltonian Monte Carlo (QNHMC) algorithm traverses the parameter space more efficiently than the standard HMC and produces a less correlated series of samples.Finally, empirical evaluation on simulated data verifies the effectiveness and efficiency of our approach.We also conduct applications of QNHMC in Bayesian logistic regression and online Bayesian matrix factorization problems.},
 author = {University, Tianfan Fu Shanghai Jiao Tong and University, Luo Luo Shanghai Jiao Tong and University, Zhihua Zhang Shanghai Jiao Tong},
 pages = {306-315},
-title = {Quasi-Newton Hamiltonian Monte Carlo},
+title = {Quasi-Newton {H}amiltonian {M}onte {C}arlo},
 year = {2016}
 }
 
@@ -308,7 +308,7 @@ year = {2016}
 abstract = {We develop Markov beta processes (MBP) asa model suitable for data which can be representedby a sparse set of latent featureswhich evolve over time. Most time evolvingnonparametric latent feature models inthe literature vary feature usage, but maintaina constant set of features over time. Weshow that being able to model features whichthemselves evolve over time results in theMBP outperforming other beta process basedmodels. Our construction utilizes Poissonprocess operations, which leave each transformedbeta process marginally beta processdistributed. This allows one to analyticallymarginalize out latent beta processes, exploitingconjugacy when we couple them withBernoulli processes, leading to a surprisinglyelegant Gibbs MCMC scheme considering theexpressiveness of the prior. We apply themodel to the task of denoising and interpolatingnoisy image sequences and in predictingtime evolving gene expression data, demonstratingsuperior performance to other betaprocess based methods.},
 author = {Shah, Amar and Ghahramani, Zoubin},
 pages = {356-365},
-title = {Markov Beta Processes for Time Evolving Dictionary Learning},
+title = {{M}arkov Beta Processes for Time Evolving Dictionary Learning},
 year = {2016}
 }
 
@@ -316,7 +316,7 @@ year = {2016}
 abstract = {There has been growing interest in inferring implicit social structures using interaction data. This approach is motivated by the fact that entities organize themselves into groups having frequent interactions between each other. Unlike previous approaches that focused on subjectively declared relationships, the idea is to exploit the actual evidence at hand to reach conclusions about group formations, resulting in more objective data-driven inferences. To this end, Blundell et. al. (2012) have employed Hawkes processes, and proposed a Hawkes IRM model to infer social structures from interaction data. A major factor that encourages the use of Hawkes processes is the capability to model reciprocity in the interaction between social entities. However, reciprocation is dynamically conditioned upon two key factors: the significance of each message sent by the sender, and the receptivity to each message received by the receiver. In the model proposed by Blundell et. al. (2012), reciprocity is not affected by either of these factors, since the content of each message is not taken into account. In this paper, we extend the work of Blundell et. al. (2012) by introducing Gaussian processes (GPs) into the Hawkes IRM model: based on the content of each message, GPs are used to model the message significance as well as receptivity. This allows us to more accurately capture the interactions among entities. The application of GPs also allows us to flexibly model the rates of reciprocal activities between two entities, allowing asymmetry in reciprocity to be captured more accurately. This leads to better cluster detection capability. Our model outperforms previous Hawkes and Poisson process-based models at predicting verbal, email, and citation activities.},
 author = {University, Xi Tan Purdue and University, Syed Naqvi Purdue and Alan, Yuan and Qi and University, Katherine Heller Duke and University, vinayak Rao Purdue},
 pages = {366-374},
-title = {Content-based Modeling of Reciprocal Relationships using Hawkes and Gaussian Processes},
+title = {Content-based Modeling of Reciprocal Relationships using Hawkes and {G}aussian Processes},
 year = {2016}
 }
 
@@ -348,7 +348,7 @@ year = {2016}
 abstract = {Kernel methods are one of the mainstays of machine learning, but the problem of kernel learning remains challenging, with only a few heuristics and very little theory. This is of particular importance in methods based on estimation of kernel mean embeddings of probability measures. For characteristic kernels, which include most commonly used ones, the kernel mean embedding uniquely determines its probability measure, so it can be used to design a powerful statistical testing framework, which includes nonparametric two-sample and independence tests. In practice, however, the performance of these tests can be very sensitive to the choice of kernel and its lengthscale parameters. To address this central issue, we propose a new probabilistic model for kernel mean embeddings, the Bayesian Kernel Embedding model, combining a Gaussian process prior over the Reproducing Kernel Hilbert Space containing the mean embedding with a conjugate likelihood function, thus yielding a closed form posterior over the mean embedding. The posterior mean of our model is closely related to recently proposed shrinkage estimators for kernel mean embeddings, while the posterior uncertainty is a new, interesting feature with various possible applications. Critically for the purposes of kernel learning, our model gives a simple, closed form marginal pseudolikelihood of the observed data given the kernel hyperparameters. This marginal pseudolikelihood can either be optimized to inform the hyperparameter choice or fully Bayesian inference can be used.},
 author = {Flaxman, Seth and Sejdinovic, Dino and University, John Cunningham Columbia and Filippi, Sarah},
 pages = {405-414},
-title = {Bayesian Learning of Kernel Embeddings},
+title = {{B}ayesian Learning of Kernel Embeddings},
 year = {2016}
 }
 
@@ -388,7 +388,7 @@ year = {2016}
 abstract = {There is resurging interest, in statistics and machine learning, in solvers for ordinary differential equations (ODEs) that return probability measures instead of point estimates. Recently, Conrad et al. introduced a sampling-based class of methods that are 'well-calibrated' in a specific sense. But the computational cost of these methods is significantly above that of classic methods. On the other hand, Schober et al. pointed out a precise connection between classic Runge-Kutta ODE solvers and Gaussian filters, which gives only a rough probabilistic calibration, but at negligible cost overhead. By formulating the solution of ODEs as approximate inference in linear Gaussian SDEs, we investigate a range of probabilistic ODE solvers, that bridge the trade-off between computational cost and probabilistic calibration, and identify the inaccurate gradient measurement as the crucial source of uncertainty. We propose the novel filtering-based method Bayesian Quadrature filtering (BQF) which uses Bayesian quadrature to actively learn the imprecision in the gradient measurement by collecting multiple gradient evaluations.},
 author = {Systems, Hans Kersting MPI for Intelligent and Systems, Philipp Hennig MPI for Intelligent},
 pages = {455-464},
-title = {Active Uncertainty Calibration in Bayesian ODE Solvers},
+title = {Active Uncertainty Calibration in {B}ayesian {ODE} Solvers},
 year = {2016}
 }
 
@@ -532,7 +532,7 @@ year = {2016}
 abstract = {The recent explosion in big data has created a significant challenge for efficient and scalable Bayesian inference. In this paper, we consider a divide-and-conquer setting in which the data is partitioned into different subsets with communication constraints, and a proper combination strategy is used to aggregate the Monte Carlo samples drawn from the local posteriors based on the dataset subsets. We propose a new importance weighted consensus Monte Carlo method for efficient Bayesian inference in this setting. Our method outperforms the previous one-shot combination strategies in terms of accuracy, and is more computation- and communication-efficient than the previous iterative combination methods that require iterative re-sampling and communication steps. We provide two practical versions of our approach, and illustrate their properties both theoretically and empirically.},
 author = {College, Qiang Liu Dartmouth},
 pages = {632-641},
-title = {Importance Weighted Consensus Monte Carlo for Distributed Bayesian Inference},
+title = {Importance Weighted Consensus {M}onte {C}arlo for Distributed {B}ayesian Inference},
 year = {2016}
 }
 
@@ -564,7 +564,7 @@ year = {2016}
 abstract = {We investigate the fairness of Bayesian estimators (BEs) by viewing them as (irresolute) voting rules and evaluating them by satisfaction of desirable social choice axioms. We characterize the class of BEs that satisfy neutrality by the class of BEs with neutral structures. We prove that a BE with a neutral structure is a minimax rule if it further satisfies parameter connectivity. We prove that no BE satisfies strict Condorcet criterion. We also propose three new BEs of natural frameworks and investigate their computational complexity and satisfaction of monotonicity and Condorcet criterion.},
 author = {Xia, Lirong},
 pages = {672-681},
-title = {Bayesian Estimators As Voting Rules},
+title = {{B}ayesian Estimators As Voting Rules},
 year = {2016}
 }
 
@@ -572,7 +572,7 @@ year = {2016}
 abstract = {We consider the problem of budget (or other resource) allocation in sequential decision problems involving a large number of concurrently running sub-processes, whose only interaction is through their consumption of budget. Our first contribution is the introduction of budgeted MDPs (BMDPs), an MDP model in which policies/values are a function of available budget, (c.f. constrained MDPs which are solved given a fixed budget). BMDPs allow one to explicitly trade off allocated budget and expected value. We show that optimal value functions are concave, non-decreasing in budget, and piecewise-linear in the finite horizon case, and can be computed by dynamic programming (and support ready approximation). Our second contribution is a method that exploits BMDP solutions to allocate budget to a large number of independent BMDPs, coupled only by their common budget pool. The problem can be cast as a multiple-choice knapsack problem, which admits an efficient, optimal greedy algorithm. Empirical results in an online advertising domain confirm the efficacy of our methods.},
 author = {Boutilier, Craig and Lu, Tyler},
 pages = {682-691},
-title = {Budget Allocation using Weakly Coupled, Constrained Markov Decision Processes},
+title = {Budget Allocation using Weakly Coupled, Constrained {M}arkov Decision Processes},
 year = {2016}
 }
 
@@ -612,7 +612,7 @@ year = {2016}
 abstract = {Multilevel clustering problems where the content and contextual information are jointly clustered are ubiquitous in modern data sets. Existing work on this problem are limited to small datasets due to the use of the Gibbs sampler. We address the problem of scaling up multilevel clustering under a Bayesian nonparametric setting, extending the MC2 model proposed in (Nguyen et al., 2014). We ground our approach in mean-field and stochastic variational inference (SVI) theory. However, the interplay between content and context modeling makes naive mean-field approach inefficient. We develop a tree-structured SVI algorithm that avoids the need to repeatedly go through the corpus as in Gibbs sampler. More crucially, our method is immediately amendable to parallelization, facilitating a scalable distributed implementation of our algorithm on the Apache Spark platform. We conducted extensive experiments in a variety of domains including text, images, and real-world user application activities. Direct comparison with the Gibbs-sampler demonstrates that our method is an order-of-magnitude faster without loss of model quality. Our Spark-based implementation gains another order-of-magnitude speed up and can scale to large real-world data sets containing millions of documents and groups.},
 author = {University, Viet Huynh Deakin and university, Dinh Phung PRaDA Deakin and University, Svetha Venkatesh Deakin and Nguyen, Long and Hoffman, Matthew and Research, Hung Bui Adobe},
 pages = {732-741},
-title = {Scalable Nonparametric Bayesian Multilevel Clustering},
+title = {Scalable Nonparametric {B}ayesian Multilevel Clustering},
 year = {2016}
 }
 
@@ -620,7 +620,7 @@ year = {2016}
 abstract = {An iterative procedure introduced in MacKay's evidence framework is often used for estimating the hyper-parameter in empirical Bayes. Despite its effectiveness, the procedure has stayed primarily as a heuristic to date. This paper formally investigates the mathematical nature of this procedure and justifies it as a well-principled algorithm framework. This framework, which we call the MacKay algorithm, is shown to be closely related to the EM algorithm under certain Gaussian assumption.},
 author = {University, Chune Li Beihang and Mao, Yongyi and University, Richong Zhang Beihang and University, Jinpeng Huai Beihang},
 pages = {742-751},
-title = {On Hyper-Parameter Estimation In Empirical Bayes: A Revisit of The MacKay Algorithm},
+title = {On Hyper-Parameter Estimation In Empirical {B}ayes: A Revisit of The MacKay Algorithm},
 year = {2016}
 }
 
@@ -636,7 +636,7 @@ year = {2016}
 abstract = {Bayesian optimization schemes often rely on Gaussian processes (GP). GP models are very flexible, but are known to scale poorly with the number of training points. While several efficient sparse GP models are known, they have limitations when applied in optimization settings.We propose a novel Bayesian optimization framework that uses sparse online Gaussian processes. We introduce a new updating scheme for the online GP that accounts for our preference during optimization for regions with better performance. We apply this method to optimize the performance of a free-electron laser, and demonstrate empirically that the weighted updating scheme leads to substantial improvements to performance in optimization.},
 author = {McIntire, Mitchell and Laboratory, Daniel Ratner SLAC National Accelerator and Ermon, Stefano},
 pages = {762-771},
-title = {Sparse Gaussian Processes for Bayesian Optimization},
+title = {Sparse {G}aussian Processes for {B}ayesian Optimization},
 year = {2016}
 }
 
@@ -692,7 +692,7 @@ year = {2016}
 abstract = {MLNs utilize relational structures that are ubiquitous in real-world situations to represent large probabilistic graphical models compactly. However, as is now well-known, inference complexity is one of the main bottlenecks in MLNs. Recently, several approaches have been proposed that exploit approximate symmetries in the MLN to reduce inference complexity. These approaches approximate large domains containing many objects with much smaller domains of meta-objects (or cluster-centers), so that inference is considerably faster and more scalable. However, a drawback in most of these approaches is that it is typically very hard to tune the parameters (e.g., number of clusters) such that inference is both efficient and accurate. Here, we propose a novel non-parametric approach that trades-off solution quality with efficiency to automatically learn the optimal domain approximation. Further, we show how to perform Gibbs sampling effectively in a domain-approximated MLN by adapting the sampler according to the approximation. Our results on several benchmarks show that our approach is scalable, accurate and converges faster than existing methods.},
 author = {Venugopal, Deepak and Sarkhel, Somdeb and Cherry, Kyle},
 pages = {831-840},
-title = {Non-parametric Domain Approximation for Scalable Gibbs Sampling in MLNs},
+title = {Non-parametric Domain Approximation for Scalable {G}ibbs Sampling in MLNs},
 year = {2016}
 }
 
